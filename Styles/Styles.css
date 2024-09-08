@@ -1,0 +1,245 @@
+/* rgb(202, 108, 227) - Pink Color*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
+
+* {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    /* text-align: center; */
+}
+
+.container {
+    padding: 50px;
+    /* border: 5px solid red; */
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about {
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h1,
+#company-name {
+    /* border: 2px solid yellow; */
+    font-style: unset;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 7px 15px;
+    background-color: black;
+    font-family: Satisfy;
+    font-size: 35px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+#VeriTech-Logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    margin: 0px 0px 0px 2px;
+    /* border: 2px solid ; */
+    /* position: relative; */
+    translate: 0px 2px;
+}
+
+#about-company {
+    /* border: 2px solid blue; */
+    text-align: center;
+    margin: 20px;
+    /* margin-top: 30px; */
+    width: 80%;
+}
+
+#about-company>strong {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about-company>em {
+    color: rgb(97, 96, 96);
+}
+
+#capital-letter {
+    color: inherit;
+    background-color: inherit;
+    display: inline;
+    font-size: 40px;
+    font-family: Dancing Script;
+    font-weight: 900;
+}
+
+
+#divider {
+    height: 1.5px;
+    background-color: black;
+    margin: 10px;
+    width: 50%;
+}
+
+h2 {
+    /* border: 2px solid black; */
+    display: inline-block;
+    /* margin: 20px; */
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3 {
+    /* margin: 20px; */
+    /* border: 2px solid red; */
+    width: fit-content;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    padding:5px 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+#team {
+    /* border: 2px solid red; */
+    height: fit-content;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+}
+
+#management-team {
+    /* border: 2px solid black; */
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    /* gap:27px; */
+}
+
+
+#management-team-members {
+    /* border: 2px solid grey; */
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+#CEO {
+    /* height: 60vh; */
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    gap: 27px;
+}
+
+#VP {
+    /* border: 2px solid grey; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 27px;
+}
+
+#development-team {
+    /* border: 2px solid black; */
+    height: 115vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#development-team-members {
+    width: 95%; 
+    /* border: 2px solid grey; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    gap: 27px;
+}
+
+#marketing-team {
+    height: 115vh;
+    /* border: 2px solid black; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#sales-team-members {
+    /* border: 2px solid grey; */
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 95%; 
+    justify-content: space-evenly;
+    gap: 27px;
+}
+
+
+.card {
+    /* border: 2px solid blue; */
+    margin: 20px 0px;
+}
+
+.member-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    filter: grayscale(100);
+    transition: filter 0.5s ease-in-out 0s, box-shadow 0.5s ease-in-out 0s;
+}
+
+.member-image:hover {
+    filter: grayscale(0);
+    /* border: 2px solid rgb(74, 74, 74,0.7); */
+    box-shadow: 3px 5px 10px rgb(130, 126, 126);
+}
+
+.about-member {
+    padding: 5px;
+    line-height: 0px;
+}
+
+.about-member>p {
+    position: relative;
+    bottom: 100px;
+}
+
+.member-name {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.member-position>i {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(138, 126, 126);
+}
